@@ -7,3 +7,7 @@ erased*
 notebooks/EDA/EDA_ideas.txt
 reports/1. Interim Reports/EDA Interim Report.pptx
 *.gdoc
+./data/mbti_interim.csv
+./notebooks/Data Wrangling/pandas_profiling/.ipynb_checkpoints/mbti_report_interim-checkpoint.html
+find . -size +50MB
+data/mbti_interim*
