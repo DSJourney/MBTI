@@ -1,0 +1,5 @@
+Group emoticos happy, sad, laugh
+Use of pronouns by each type (us / I / we vs. you/them etc.)
+Dimensionality Reduction
+Use of positive or negative words
+Wordclouds
