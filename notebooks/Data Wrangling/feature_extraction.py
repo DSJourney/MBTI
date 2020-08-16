@@ -9,6 +9,7 @@ class Feature_Extraction:
         self.df = df
         self.target = target
         self.posts = posts
+        self.name = 'df' # this is a temporary solution for something I have not been able to work out, getting the name of the dataframe without calling global()
 
     def dummies_types(self, column='type', drop_first=True):
         """Extracts the individual attributes as dummy variables from the type column
@@ -136,14 +137,15 @@ class Feature_Extraction:
         """The goal of __repr__ is to make our instance be unambiguous"""
         return repr(self.df)
     
-    @staticmethod
-    def get_df_name(dataframe):
-        name =[x for x in globals() if globals()[x] is dataframe][0]
-        return name
+    #@staticmethod
+    #def get_df_name(dataframe): # I was adviced not to use globals() in a class function because it make is hard to read for others. This method is thus left unused for the moment. globals()['df'] = self.df
+        #"""Provides the name of the dataframe as a string"""
+        #name =[x for x in globals() if globals()[x] is dataframe][0]
+        #return name
+    
     
     def __str__(self):
         """The goal of __str__ is to make our instance be readable"""
-        globals()['df'] = self.df 
-        return "'The object created is the dataframe: '{}', the target column: '{}', and the text input column:'{}'".format(self.get_df_name(self.df), self.target, self.posts)
+        return "'The object created is the dataframe: '{}', the target column: '{}', and the text input column:'{}'".format(self.name, self.target, self.posts)
     
     
