@@ -12,7 +12,7 @@ The process followed is:
 
 * **Exploratory Data Analysis** – this step involves creating plots and charts to understand the relationship between data and the features of that data. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/EDA/MBTI_EDA_Clean.ipynb#visuals)
 
-![Image of EDA](https://github.com/DSJourney/MBTI/blob/master/notebooks/EDA/Figures/countplot_types_comparison_population.png)
+![Image of EDA](https://github.com/DSJourney/MBTI/blob/master/notebooks/2.EDA/Figures/countplot_types_comparison_population.png)
 
 * **Pre-processing and Training Data Development** – this step involves standardizing and training your dataset. PENDING
 
