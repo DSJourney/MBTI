@@ -14,7 +14,7 @@ The process followed is:
 
 ![Image of EDA](https://github.com/DSJourney/MBTI/blob/master/notebooks/2.%20EDA/Figures/countplot_types_comparison_population.png)
 
-* **Pre-processing and Training Data Development** – this step involves standardizing and training your dataset. PENDING
+* **Feature Engineering & Pre-processing** – this step involves standardizing the dataset and creating features. For the time being, I have also added some NLP models in this notebook. 
 
 * **Modeling** – this involves selecting, training and deploying a model to make predictive insights. PENDING
 
