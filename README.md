@@ -14,7 +14,9 @@ The process followed is:
 
 ![Image of EDA](https://github.com/DSJourney/MBTI/blob/master/notebooks/2.%20EDA/Figures/countplot_types_comparison_population.png)
 
-* **Feature Engineering & Pre-processing** – this step involves standardizing the dataset and creating features. For the time being, I have also added some NLP models in this notebook. 
+* **Feature Engineering & Pre-processing** – this step involves standardizing the dataset and creating features. For the time being, I have also added some NLP models using CountVectorizer, TF-IDF, and Word2Vec. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/3.%20Feature%20Engineering%20and%20Pre-processing/Preprocessing.ipynb#wv)
+
+<img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/3.%20Feature%20Engineering%20and%20Pre-processing/img/TF_IDF_Feeling_Thinking.png" width="700">
 
 * **Modeling** – this involves selecting, training and deploying a model to make predictive insights. PENDING
 
