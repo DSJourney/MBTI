@@ -8,13 +8,15 @@ My goal is to analyze this dataset and see if a classification model can determi
 The process followed is:
 * **Problem Identification** – this step involves identifying the correct problem to solve and setting goals for your project. [PDF](https://github.com/DSJourney/MBTI/blob/master/reports/0.%20Problem%20Identification/Problem%20Identification%20-%20MBTI.pdf)
 
-* **Data Wrangling** – this step involves the collection, organization, and definition of a dataset or datasets. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/Data%20Wrangling/MBTI_Data_Wrangling.ipynb)
+* **Data Wrangling** – this step involves the collection, organization, and definition of a dataset or datasets. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/1.%20Data%20Wrangling/MBTI_Data_Wrangling.ipynb)
 
-* **Exploratory Data Analysis** – this step involves creating plots and charts to understand the relationship between data and the features of that data. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/EDA/MBTI_EDA_Clean.ipynb#visuals)
+* **Exploratory Data Analysis** – this step involves creating plots and charts to understand the relationship between data and the features of that data. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/2.%20EDA/MBTI_EDA_Clean.ipynb)
 
 ![Image of EDA](https://github.com/DSJourney/MBTI/blob/master/notebooks/2.%20EDA/Figures/countplot_types_comparison_population.png)
 
-* **Feature Engineering & Pre-processing** – this step involves standardizing the dataset and creating features. For the time being, I have also added some NLP models in this notebook. 
+* **Feature Engineering & Pre-processing** – this step involves standardizing the dataset and creating features. For the time being, I have also added some NLP models using CountVectorizer, TF-IDF, and Word2Vec. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/3.%20Feature%20Engineering%20and%20Pre-processing/Preprocessing.ipynb#wv)
+
+<img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/3.%20Feature%20Engineering%20and%20Pre-processing/img/TF_IDF_Feeling_Thinking.png" width="700">
 
 * **Modeling** – this involves selecting, training and deploying a model to make predictive insights. PENDING
 
