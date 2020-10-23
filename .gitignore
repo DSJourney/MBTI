@@ -8,7 +8,7 @@ data/mbti_tfidf.csv
 .ipynb_checkpoints
 erased*
 notebooks/EDA/EDA_ideas.txt
-notebooks/3. Feature Engineering and Pre-processing/GoogleNews-vectors-negative300.bin.gz
+notebooks/4. Modeling/GoogleNews-vectors-negative300.bin.gz
 reports/1. Interim Reports/EDA Interim Report.pptx
 *.gdoc
 ./data/mbti_interim.csv
