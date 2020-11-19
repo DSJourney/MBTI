@@ -22,7 +22,8 @@ The process I follow is:
 <p align="center"><img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/3.%20Feature%20Engineering%20and%20Pre-processing/img/T_words_word_cloud.png" width="700"></p>
 
 
-* **Modeling** – this involves selecting, training and deploying a model to make predictive insights. PENDING
+* **Modeling** – this involves selecting, training and deploying a model to make predictive insights. [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/4.%20Modeling/Modeling_Results.ipynb)
 
+<p align="center"><img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/4.%20Modeling/img/Final_Models.png" width="700"></p>
 
 * **Documentation** – this involves documenting the work you’ve done and sharing your findings. PENDING
