@@ -15,3 +15,11 @@ reports/1. Interim Reports/EDA Interim Report.pptx
 ./notebooks/Data Wrangling/pandas_profiling/.ipynb_checkpoints/mbti_report_interim-checkpoint.html
 find . -size +50MB
 data/mbti_interim*
+**/model_selection_results_EI/
+**/model_selection_results_JP/
+**/model_selection_results_NS/
+**/model_selection_results_TF/
+**/other_models
+**/GoogleNews-vectors-negative300.bin.gz
+**/Modeling_ignore.ipynb
+**/saved_weights.pt
