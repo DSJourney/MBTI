@@ -26,4 +26,9 @@ The process I follow is:
 
 <p align="center"><img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/4.%20Modeling/img/Final_Models.png" width="700"></p>
 
+* **Predicting** - this step involves taking unseen data and analysing it with our models created in the previous step. In this case I scraped some twitter profiles to find people who had their MBTI types in their bios and I extracted their tweets, which I then used to classify each person into a particular MBTI type. [Scraper](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/5.%20Predicting/Twitter_MBTI_Scraper.ipynb) and [Notebook](https://nbviewer.jupyter.org/github/DSJourney/MBTI/blob/master/notebooks/5.%20Predicting/Predicting.ipynb)
+
+<p align="center"><img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/5.%20Predicting/img/length_tweet_corpus_vs_correct_guesses.png" width="700"></p>
+
+
 * **Documentation** – this involves documenting the work you’ve done and sharing your findings. PENDING
