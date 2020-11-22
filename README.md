@@ -1,4 +1,4 @@
-MBTI Classification (In progress)
+MBTI Classification
 ================================
 
 In this project I go over the MBTI dataset in [Kaggle](https://www.kaggle.com/datasnaek/mbti-type) created by Mitchell J.
@@ -31,4 +31,6 @@ The process I follow is:
 <p align="center"><img src="https://github.com/DSJourney/MBTI/blob/master/notebooks/5.%20Predicting/img/length_tweet_corpus_vs_correct_guesses.png" width="700"></p>
 
 
-* **Documentation** – this involves documenting the work you’ve done and sharing your findings. PENDING
+* **Documentation** – this involves documenting the work you’ve done and sharing your findings. [Presentation](https://github.com/DSJourney/MBTI/blob/master/reports/2.%20Final%20Report/MBTI_Final_Presentation.pdf)
+
+<a href="https://github.com/DSJourney/MBTI/blob/master/reports/2.%20Final%20Report/MBTI_Final_Presentation.pdf"><p align="center"><img src="https://github.com/DSJourney/MBTI/blob/master/reports/2.%20Final%20Report/Cover_Image_for_README.png" width="700"></p></a>
